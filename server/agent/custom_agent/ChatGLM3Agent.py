@@ -8,7 +8,6 @@ import logging
 from typing import Any, List, Sequence, Tuple, Optional, Union
 from pydantic.schema import model_schema
 
-
 from langchain.agents.structured_chat.output_parser import StructuredChatOutputParser
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.agents.agent import Agent
